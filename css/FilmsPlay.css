@@ -1,0 +1,194 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+   
+    
+}
+
+body{
+    background-color: #121212;
+ 
+}
+.fa-arrow-left
+{
+    color: blanchedalmond;
+    padding: 10px;
+    background-color: rgb(175, 20, 223);
+    border-radius: 50%;
+    margin: 20px;
+    position: absolute;
+}
+.fa-arrow-left:hover
+{
+    background-color: rgb(100, 10, 128);
+
+}
+.container{
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    margin:  0px auto;
+    display: flex;
+   flex-direction: column;
+}
+.videoWindow
+{
+    width: 80%;
+    position: relative;
+height: 60vh;
+    margin:  80px auto;
+    margin-bottom: 35px;
+    display: flex;
+}
+.videoWindow .title
+{    position: relative;
+     width: 10%; 
+ 
+ }
+.videoWindow .title span
+{
+    position: absolute;
+    color: wheat;
+    transform: rotate(90deg);
+    text-align: start;
+     margin-top: 130px;
+   
+}
+.videoWindow span::before
+{
+    content: '';
+    position: absolute;
+    width: 80px ;
+    height:1px;
+    background-color: rgb(211, 211, 211);
+    left:   -100px;
+    bottom: 8px;
+}
+.videoWindow span::after
+{
+    content: '';
+    position: absolute;
+    width:80px ;
+    height: 1px;
+    bottom: 8px;
+    left: 90px;
+    background-color: rgb(211, 211, 211);
+
+}
+.videoWindow video
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgba(176, 20, 223, 0.363);
+  padding: 22px;background-color: rgb(0, 0, 0);
+}
+.More{
+    width: 100%;
+    position: relative;
+    margin:  0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    height:10vh;
+  
+    align-items: center;
+}
+.More span:first-child,
+.More .Sugg
+{
+    flex: 2;
+ 
+   
+}
+.More span:first-child
+{ 
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
+    width: 10%; 
+   
+}
+.More .Sugg
+{  
+    width: 80%;
+    display: flex; 
+    margin-right: 150px;
+} 
+.More span:first-child:after
+{
+    content: '';
+    position: absolute;
+    width:80px;
+    height: 1px;
+    bottom: 30px;
+    left: 250px;
+ background-color: cornsilk;
+}
+ .More .Sugg .videoSugg
+ {
+  flex: 1;
+  height: 60px;
+  border: 1px solid rgb(175, 20, 223);
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+ 
+ } 
+ 
+ .More .Sugg .videoSugg:nth-child(1)
+ {
+     background-image: url("../imgs/IMG_20211020_002856_472.jpg");
+     background-size: cover;
+ filter: opacity(0.9);
+
+ }
+ .More .Sugg .videoSugg:nth-child(2)
+ {
+     background-image: url("../imgs/IMG_20211020_002952_508.jpg");
+     background-size: cover;
+ filter: opacity(0.6);
+
+ }
+ .More .Sugg .videoSugg:nth-child(3)
+ {
+     background-image: url("../imgs/IMG_20211020_002915_333.jpg");
+     background-size: cover;
+ filter: opacity(0.2);
+
+ }
+ .More .Sugg .videoSugg:hover
+ {
+ filter: opacity(1);
+
+ }
+
+ footer
+ {
+     color: rgb(134, 134, 134);
+     width: 100%;
+     text-align: center;
+     position: absolute;
+     padding: 20px 0;
+     bottom: 0;
+     background-color: black;
+ }
+ @media (max-width:1215px) {
+    .videoWindow .title span{
+        display: none;
+    }
+
+ }
+ @media (max-width:1000px) {
+    .More span:first-child{
+        display: none;
+    }
+    .More .Sugg{
+        position: absolute;
+        width: 60%;
+        margin-left: 120px;   
+    }
+    
+     
+ }

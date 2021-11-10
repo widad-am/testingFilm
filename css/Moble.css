@@ -1,0 +1,98 @@
+.liens .upline  ul li{
+     margin-left: 30px; 
+       font-size: 14px;
+}
+.upline .search input
+{ 
+    width: 80px;
+}
+.btn button
+{
+     padding: 5px 10px;
+}
+/* new */
+ 
+ 
+.new .conatainerNew 
+{
+    height: 50vh;
+     min-height: 100vh;
+    
+     position: relative;
+ align-content: space-around;
+}
+.new .conatainerNew .card
+{
+     display: flex;
+     flex-direction: column;
+}
+.new .conatainerNew .card   .imgbox,.new .conatainerNew .card   .content
+
+{ 
+     
+position: relative;
+ height: 30%;
+}
+.new .conatainerNew .card   .content
+{
+     padding: 0;
+     height: 60%;
+}
+.new .conatainerNew .card:hover .imgbox
+{
+width: 100%;
+  height: 40%;
+  left: 0;
+  top: 0;
+ 
+}
+.new .conatainerNew .card:hover  .content
+{
+   
+     max-width: 100%;
+     height: 60%;
+     left: 0;
+}
+.new .conatainerNew .card  .content .watch
+{
+    width: 44%;
+}
+
+.new  .mostamlahat 
+{
+
+ 
+right: -60px;
+ 
+}
+.contact{
+   margin-bottom: 0; 
+  }
+  .contact .img
+  {
+    
+ 
+   margin-bottom: 0; 
+  
+   padding:  200px;
+    
+  }
+  /* Media */
+  .Media ul 
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 150px;
+    margin-top: -200px;
+}
+
+.Media ul li
+{
+    position: relative;
+    list-style: none;
+ 
+transform: rotate(-30deg) skew(20deg);
+ 
+}

@@ -1,0 +1,31 @@
+.liens .upline  ul li{
+    margin-left: 30px; 
+    font-size: 16px;
+}
+.upline .search input
+{ 
+   width: 100px;
+}
+.new .conatainerNew .card
+{
+    
+     width:  40%;     
+}
+/* Series */
+.Series
+{
+     margin-bottom: 0;
+
+}
+/* Contact */
+.contact{
+    padding-top: 0; 
+   }
+   .contact .img{
+    padding: 0; 
+   }
+/*Media */
+.Media{
+    position: relative;
+    margin-top:900px ;
+}

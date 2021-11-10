@@ -1,0 +1,232 @@
+
+.logo 
+{
+    width: 2%;
+}
+.logo img
+{
+    width: 100px ;
+    height: 100px;
+}
+.liens .upline  ul li
+{
+margin-left: 0;
+
+}
+.liens 
+{ width: 100%;
+    
+     
+ }
+.liens .upline
+{
+    width: 100%;
+}
+.liens .upline  ul li a
+{
+    margin-left: 13px;
+    font-size: 14px;
+    
+}
+.logo .img span
+{
+    text-shadow:  0 0 10px#eff300,0 0 20px#eff300,0 0 30px#eff300;
+}
+nav
+{
+    height:50vh;
+}
+
+.liens .upline
+{ align-items: flex-end; 
+   
+    flex-direction: column;
+     border-bottom:none;
+     margin-left: 60px;
+   
+    margin-top: 80px;
+}
+.liens .upline  ul li a:hover
+{
+     
+    border-bottom: 1px solid #eff300;
+    cursor: pointer;
+    color: #eff300;
+
+}
+.search  
+{   
+  width: 100%;
+ 
+   margin-top: 10px;
+}
+.search input,.search i
+{
+   flex: 2;
+}
+.search input
+{
+    width: 40%;
+    font-size: 15px;
+}
+.search i{
+    width: 10%;
+     position :absolute;
+}
+ 
+.mostamlahat span:first-of-type
+{
+    width: 100px;
+    height: 1px;
+    background-color: rgb(172, 170, 165);
+     
+}
+.mostamlahat 
+{
+    margin-top: 25px;
+}
+.mostamlahat i
+{
+    width: 20px;
+    height: 20px;
+    font-size: 7px;line-height: 20px;
+}
+.boxs .box
+{
+    
+    height: 50%;
+    width: 50%;
+     
+}
+.boxs .box:nth-child(6)
+{
+box-shadow: none;
+
+}.boxs .box:nth-child(7)
+{
+   
+box-shadow: none;
+
+}.boxs .box:nth-child(8)
+{
+   
+box-shadow: none;
+
+}
+.Film-tv
+{
+     
+   margin: 100px 0;
+}
+/* new */
+ 
+.new .conatainerNew
+{ 
+    position: relative;
+    margin-top: 1220px;
+}
+.new .conatainerNew .card
+{
+     width:  75%;   
+}
+.new .conatainerNew .card  .content
+{    
+   padding: 0;
+   height:60% ;
+}
+.new .conatainerNew .card .imgbox
+{
+   height:40% ;
+
+}
+.new .conatainerNew .card:hover  .imgbox
+{
+   height:50% ;
+
+}
+.new .conatainerNew .card  .content .watch
+{
+     
+    width: 44%;
+ 
+}
+ 
+.new  .mostamlahat  span
+{
+right: -60px;
+height: 200px;
+width: 1px;
+ 
+}
+.new  .mostamlahat  span::before
+{
+ 
+transform: rotate(-180deg);
+
+}
+/* vip */
+.Vip
+{
+ margin-top: 250px;
+}
+.Vip .VipContainer
+{
+ width: 100%;
+  
+}
+.Vip .VipContainer h1{
+ font-size: 40px;
+  padding: 0;
+ padding: 30px 0px;
+ margin-left: 50px;
+ align-items: flex-end;
+ margin-top: 50px;
+}
+.Vip .information {
+    display: flex;
+    margin: 0 45px ;
+    flex-direction: row;
+    padding: 0;
+}
+.revStarsandBuy
+{
+    position: relative;
+ 
+  
+   width:40%;
+   
+   margin: 0 35px;
+}
+.Vip .img .baby
+{
+    
+   
+    background-position: center;
+  
+     
+    
+}
+/* Contact */
+.contact
+{
+    flex-direction: column;
+}
+.contact{
+    padding-top: 100px;
+    
+ }
+ .contact .img
+ {
+ margin-left: 10px;
+  margin-top: 600px;
+ padding-bottom: 0;  
+ }
+ .Media{
+    position: relative;
+    margin-top:900px ;
+}
+.Media ul
+{
+    margin-left: 120px;
+}
+ 
